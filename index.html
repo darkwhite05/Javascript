@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Interactive Example</h1>
+    <h3>Section 1 Lessons</h3>
+    <button id="menuButton">Toggle Menu</button>
+    <button id="alertButton">Show Alert</button>
+    <button id="incrementButton">+</button>
+    <button id="decrementButton">-</button>
+    <button id="resetButton">Refresh</button>
+
+    <p>Quantity: <span id="counter">0</span></p>
+    <!--The Menu-->
+    <ul id="menu" style="display: none">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!--Form for name input-->
+    <label for="username">Enter your name:</label>
+    <input type="text" id="username" placeholder="Your Name" />
+    <button id="greetButton">Greet Me</button><br /><br />
+    <p id="greetingMessage"></p>
+    <!--Section where the new paragraph will be added-->
+    <button id="addParagraphButton">Add Paragraph</button>
+    <div id="paragraphContainer"></div>
+
+    <!--Link to external Javascript File-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
